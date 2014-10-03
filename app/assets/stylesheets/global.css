@@ -1,0 +1,11 @@
+.dropdown {
+  position: relative;
+}
+
+img{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  }
