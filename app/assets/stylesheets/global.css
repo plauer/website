@@ -1,11 +1,36 @@
+header {
+  background-color:#3399FF;
+}
+
+header button {
+  color:transparent;
+}
+
 .dropdown {
   position: relative;
 }
 
-img{
+footer img{
   width: 30px;
   height: 30px;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
-  }
+}
+
+.name {
+color: black;
+text-decoration: none;
+font-family: 'daniel', cursive;
+}
+/*
+@font-face {
+ font-family: 'daniel';
+ src: url('daniel.eot');
+ src: url('daniel.eot?#iefix') format('embedded-opentype'),
+ url('daniel-webfont.woff') format('woff'),
+ url('daniel-webfont.ttf') format('truetype'),
+ url('daniel-webfont.svg#daniel') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}*/
