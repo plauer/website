@@ -7,6 +7,15 @@ header button {
   color:transparent;
 }
 
+header img{
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+}
+
+
 .dropdown {
   position: relative;
 }
@@ -31,13 +40,6 @@ box-shadow: 1px 0px 3px 0px rgba(230,225,230,1);
 box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(230, 225, 230, 0.8), -12px 0 15px -4px rgba(230, 225, 230, 0.8);
 }
 
-footer img{
-  width: 20px;
-  height: 20px;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-}
 
 .footer{
   height:90px;
@@ -57,7 +59,7 @@ footer blockquote {
 
 
 
-footer .glyphs {
+footer .glyphicon-envelope{
   position:relative;
   top:30px;
   float:left;
