@@ -1,6 +1,5 @@
 header {
   background-color:#3399FF;
- /* height:60px;*/
 }
 
 
@@ -14,6 +13,7 @@ header img{
 }
 
 header .dropdown {
+  color:black;
   cursor:pointer;
   float:left;
   margin-left:40px;
@@ -30,28 +30,23 @@ header .glyphs {
   top:10px;
 }
 
-
-
 header .name {
 /*  border:solid 1px white;
 */  height:auto;
   width:200px;
   margin:0 auto;
   text-align:center;
-  
   clear:both;
   color:white;
   text-decoration: none;
   font-family: 'daniel', cursive;
 }
 
-header .container {
-  padding-bottom:0px;
-  margin-bottom:0px;
-}
-
 .nav-menu {
   display:none;
+  width:;
+  width:100%;
+  max-width:100%;
   background-color:white;
   text-align:center;
   height:50px;
@@ -61,8 +56,6 @@ header .container {
 .nav-menu ul {
   position:relative;
   top:25%;
-  margin:0;
-  padding:0;
   list-style:none;
   display:inline;
 }
@@ -79,29 +72,17 @@ header .container {
 
 
 .welcome-image {
-/*  margin:0px;
-*/  width:100%;
+  width:100%;
 }
 
 .body-content {
  padding:0px 100px 0px 100px;
 }
 
-
-/*http://www.cssmatic.com/box-shadow
-*/
 .container {
   padding:0px;
   width:89%;
-/*-webkit-box-shadow: -1px 0px 3px 0px rgba(230,225,230,1);
--moz-box-shadow: -1px 0px 3px 0px rgba(230,225,230,1);
-box-shadow: -1px 0px 3px 0px rgba(230,225,230,1);
-
--webkit-box-shadow: 1px 0px 3px 0px rgba(230,225,230,1);
--moz-box-shadow: 1px 0px 3px 0px rgba(230,225,230,1);
-box-shadow: 1px 0px 3px 0px rgba(230,225,230,1);
-*/
-box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(230, 225, 230, 0.8), -12px 0 15px -4px rgba(230, 225, 230, 0.8);
+  box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(230, 225, 230, 0.8), -12px 0 15px -4px rgba(230, 225, 230, 0.8);
 }
 
 

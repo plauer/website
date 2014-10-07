@@ -8,7 +8,7 @@ $(document).ready( function() {
   var hideNavMenu = function(event) {
     setTimeout( function() {
       $('header .nav-menu').slideUp(100);
-      $('header .dropdown .glyphicon').css('color', 'black')
+      $('header .dropdown .glyphicon').css('color', 'black ')
     }, 1000);
   }
 
