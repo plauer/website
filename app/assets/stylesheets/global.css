@@ -1,7 +1,7 @@
 header {
   background-color:#3399FF;
+ /* height:60px;*/
 }
-
 
 
 header img{
@@ -12,7 +12,6 @@ header img{
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
 }
-
 
 header .dropdown {
   cursor:pointer;
@@ -31,16 +30,17 @@ header .glyphs {
   top:10px;
 }
 
-header .glyphs img:hover {
-  color:lightblue;
-}
+
 
 header .name {
+/*  border:solid 1px white;
+*/  height:auto;
   width:200px;
   margin:0 auto;
   text-align:center;
+  
   clear:both;
-  color: black;
+  color:white;
   text-decoration: none;
   font-family: 'daniel', cursive;
 }
@@ -56,9 +56,8 @@ header .container {
   text-align:center;
   height:50px;
   font-family: 'Playfair Display', ;
-
-
 }
+
 .nav-menu ul {
   position:relative;
   top:25%;
@@ -111,8 +110,6 @@ box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(230
   padding:0px 100px 0px 100px;
 
 }
-
-
 
 footer blockquote {
   border-left:none;
