@@ -16,13 +16,18 @@ header .dropdown {
   cursor:pointer;
  /* width:100px;*/
   float:left;
+  margin-left:40px;
+  position:relative;
+  top:10px;
   /*margin-left:10%;*/
 }
 header .glyphs {
   text-align:right;
   float:right;
  /* width:100px;*/
-/*  margin-right:8%;*/
+  margin-right:10px;
+  position:relative;
+  top:10px;
 }
 
 header .name {
