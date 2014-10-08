@@ -4,10 +4,10 @@
   Title: <%= f.text_field :title, size: "60x1" %>
   <br>
   <br>
-  Content: <%= f.text_area :body, size: "60x12" %>
+  Content: <%= f.text_area :content, size: "60x12" %>
   <br>
   <br>
-    Post Date: <%= f.datetime :post_date%>
+    Post Date: <%= f.date_select :post_date%>
   <br>
   <br>
   <%= f.submit "Submit Blog Post" %>

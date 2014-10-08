@@ -12,7 +12,7 @@ class PostsController < ApplicationController
     @post = Post.new(post_params)
     if @post.save
       flash[:success] = "Post created!"
-      redirect_to @post
+      redirect_to action: "index"
     else
       render 'new'
     end
