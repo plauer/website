@@ -1,0 +1,14 @@
+<h1>Make a post</h1>
+
+<%= form_for :post, url: {controller: "posts", action: "create"} do |f| %>
+  Title: <%= f.text_field :title, size: "60x1" %>
+  <br>
+  <br>
+  Content: <%= f.text_area :body, size: "60x12" %>
+  <br>
+  <br>
+    Post Date: <%= f.datetime :post_date%>
+  <br>
+  <br>
+  <%= f.submit "Submit Blog Post" %>
+<% end %>

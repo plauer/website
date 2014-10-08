@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root 'welcome#index'
+  resources :posts 
 
-  get '/blogs', to: 'blogs#index'
-  # resources :blogs
+  # get '/posts', to: 'posts#index'
+  # get '/posts/new', to: 'posts#new'
+
 end

@@ -1,4 +1,4 @@
-$(document).ready( function() {
+$(document).on('ready page:load', function() {
  
   var showNavMenu = function(event) {
     $('header .nav-menu').slideDown(100);
@@ -15,9 +15,5 @@ $(document).ready( function() {
   $('header').on('mouseover', showNavMenu)
   $('header').on('mouseleave', hideNavMenu)
 
-
-  // $('.glyphicon:first').on('mouseover', function() {
-  //   console.log('hi');
-  // });
 })
 
