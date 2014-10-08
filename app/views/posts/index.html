@@ -3,11 +3,12 @@
 <%= link_to "Make New Blog Post", new_post_path %>
 <br>
     <% @posts.each do |post| %>
+    <%= link_to(post) do %>
         <ul>
-         
             <li>Title: <%= post.title  %></li>
-            <li>Content: <%= post.content %></li>
-            <li>Content: <%= post.content %></li>
+            <li>Content: <%= post.snippet %></li>
         </ul>
+
+        <% end %>
     <% end %>
 
