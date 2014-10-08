@@ -28,8 +28,10 @@ gem 'spring',        group: :development
 
 gem 'faker'
 
+gem 'factory_girl_rails'
+
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -40,3 +42,15 @@ gem 'faker'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0'
+
+end
+
+group :test do 
+  # Use capybara for feature tests
+  gem "capybara"
+  gem "shoulda-matchers"
+  gem 'selenium-webdriver'
+  gem 'database_cleaner'
+end

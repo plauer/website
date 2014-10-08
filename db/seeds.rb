@@ -1,6 +1,13 @@
-title = "Test Title"
-content = "I like turtles so much it makes me sick."
-post_date = "May 11, 2012"
+module FakePostImporter
+  def self.import 
+    3.times do 
+      post = FactoryGirl.create(:post)
+      2.times do 
+        user = FactoryGirl.create(:user)
+        comment = FactoryGirl.create(:comment, :post => post, :user => user)
+      end
+    end
+  end
+end
 
-Post.create(:title => title, :content => content, :post_date => post_date)
-
+FakePostImporter.import
