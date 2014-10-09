@@ -4,33 +4,33 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
 
-  def new
-    @post = Post.new
-  end
+  # def new
+  #   @post = Post.new
+  # end
 
-  def create
-    @post = Post.new(post_params)
-    if @post.save
-      flash[:success] = "Post created!"
-      redirect_to action: "index"
-    else
-      render 'new'
-    end
-  end
+  # def create
+  #   @post = Post.new(post_params)
+  #   if @post.save
+  #     flash[:success] = "Post created!"
+  #     redirect_to action: "index"
+  #   else
+  #     render 'new'
+  #   end
+  # end
 
   def show
     @post = Post.find(params[:id])
     @comments = @post.comments
   end
 
-  def update
+  # def update
 
-  end
+  # end
 
-  private 
+  # private 
 
-    def post_params
-      params.require(:post).permit(:title, :content, :post_date)
-    end
+  #   def post_params
+  #     params.require(:post).permit(:title, :content, :post_date)
+  #   end
 
 end

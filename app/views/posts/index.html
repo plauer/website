@@ -1,7 +1,7 @@
 <%= link_to "Back", root_path %>
 <h2>Blog Posts</h2>
 
-<%= link_to "Make New Blog Post", new_post_path %>
+
 <br>
     <% @posts.each do |post| %>
     <%= link_to(post) do %>
@@ -12,4 +12,6 @@
 
         <% end %>
     <% end %>
+
+<h3>Comments go here</h3>
 
