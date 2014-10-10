@@ -80,19 +80,20 @@ header .name {
 }
 
 .body-content {
- padding:0px 200px 0px 200px;
+ padding:20px 200px 0px 200px;
 }
 
 .content-header {
-  /*margin-top:50px;*/
-  width:500px;
+   padding:30px 0px 30px 0px;
+  width:95%;
   margin:0 auto;
   font-family: 'daniel', cursive;
 }
 
 .content-header hr {
   border-bottom:solid 2px black;
-  width:200px;
+
+  width:30%%;
 }
 
 
