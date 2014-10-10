@@ -1,5 +1,5 @@
 $(document).on('ready page:load', function() {
- var img = $('.welcome-image')
+ var img = $('#slide-1')
 
   $(window).scroll(function() {
     $(img).css({
@@ -13,7 +13,7 @@ $(document).on('ready page:load', function() {
     var s = skrollr.init({
         render: function(data) {
             //Debugging - Log the current scroll position.
-            console.log(data.curTop);
+            // console.log(data.curTop);
         }
     });
 } )( jQuery );
