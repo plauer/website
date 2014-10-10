@@ -98,6 +98,7 @@ header .name {
 
 
 .footer{
+  clear:both;
   height:90px;
   padding:0px 100px 0px 100px;
 
@@ -151,42 +152,34 @@ footer a {
     height: 100%;
     width: 100%;
 }
-/* Slide 1 */
+
 #slide-1 .bcg {background-image:url('snowboard_fall.jpg')}
 
-/*#slide-2 .bcg {
+#slide-2 .bcg {
     background: none;
     background-color: #010101;
     height: 310px;
     text-align: center
-}*/
+}
 
-/*.curtainContainer {
-    width: 100%; height: 100%;
-    position: relative;
+.welcome-photos {
+  width:80%;
+  margin:0 auto;
+  height:auto;
 }
-.curtainContainer .curtain {
-    width: 300%; height: 1px;
-    background-color: #000000;
-    position: absolute; top: 25%; left: 0;
-    opacity: 0
-}
-.curtainContainer .copy {
-    position: absolute;
-    bottom: 30%; left: 0;
-    width: 100%; text-align: center;
-}
-#slide-4 .bcg {background-image:url('cougar.jpg')}
 
-#slide-5 {position: relative;}
-#slide-5 .bcg {background-image:url('img/bcg_slide-5.jpg')}
-#slide-5 .bcg2 {
-    background-image:url('img/bcg_slide-5b.jpg');
-    position: fixed; bottom: 0; left: 0;
-    opacity: 0; z-index: 1
+.dbc-photo {
+  float:left;
+  height:40%;
+  width:40%;
+  padding-bottom:50px;
 }
-#slide-5 .bcg3 {
-    background: none; background-color: #010101;
-    position: fixed; bottom: 0; left: 0;
-    opacity: 0; z-index: 2
-}*/
+.taiwan-photo {
+  margin-top:50px;
+  float:right;
+  height:50%;
+  width:50%;
+}
+
+
+
