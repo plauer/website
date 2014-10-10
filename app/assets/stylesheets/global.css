@@ -84,6 +84,7 @@ header .name {
 }
 
 .content-header {
+  /*margin-top:50px;*/
   width:500px;
   margin:0 auto;
   font-family: 'daniel', cursive;
