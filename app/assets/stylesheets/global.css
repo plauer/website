@@ -80,7 +80,9 @@ header .name {
 }
 
 .body-content {
- padding:20px 200px 0px 200px;
+ padding:20px 100px 0px 100px;
+font-family: 'Josefin Sans', sans-serif;
+font-size:1.5em;
 }
 
 .content-header {
@@ -91,10 +93,13 @@ header .name {
   font-family: 'daniel', cursive;
 }
 
+.body-content h3 {
+  font-weight:bold;
+}
+
 .content-header hr {
   border-bottom:solid 2px black;
-
-  width:30%%;
+  width:30%;
 }
 
 
@@ -168,6 +173,7 @@ footer a {
 
 .dbc-photo {
   float:left;
+
   height:40%;
   width:40%;
   padding-bottom:50px;
@@ -200,7 +206,7 @@ footer a {
 
 #slide-4 blockquote {
   font-family: 'Josefin Sans', sans-serif;
-  font-size:1.5em;
+  font-size:2em;
   border-left:none;
   margin:0 auto;
   width:60%;

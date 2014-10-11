@@ -3,7 +3,7 @@ $(document).on('ready page:load', function() {
 
   $(window).scroll(function() {
     $(img).css({
-    'opacity' : 1-(($(this).scrollTop())/450)
+    'opacity' : 1-(($(this).scrollTop())/250)
     });        
   });
 
