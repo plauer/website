@@ -156,16 +156,9 @@ footer a {
     width: 100%;
 }
 
-#slide-1 .bcg {background-image:url('snowboard_fall.jpg')}
+#slide-1 .bcg {background-image:url('mountain.jpg')}
 
 
-/*
-#slide-2 .bcg {
-    background: none;
-    background-color: #010101;
-    height: 310px;
-    text-align: center
-}*/
 
 .welcome-photos {
   width:80%;
@@ -202,4 +195,4 @@ footer a {
     bottom: 30%; left: 0;
     width: 100%; text-align: center;
 }
-#slide-4 .bcg {background-image:url('mountain.jpg')}
+#slide-4 .bcg {background-image:url('snowboard_fall.jpg')}
