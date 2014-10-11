@@ -8,5 +8,8 @@ Rails.application.routes.draw do
   get '/posts', to: "posts#index"
   get '/posts/:id', to: "posts#show", as: "post"
 
+  get '/photos', to: "photos#index"
+  get '/photos/:id', to: "photos#show", as: "photo"
+
 
 end
