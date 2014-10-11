@@ -195,4 +195,19 @@ footer a {
     bottom: 30%; left: 0;
     width: 100%; text-align: center;
 }
+
+
+
+#slide-4 blockquote {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:1.5em;
+  border-left:none;
+  margin:0 auto;
+  width:60%;
+}
+
+#slide-4 blockquote footer {
+  color:lightgrey;
+}
+
 #slide-4 .bcg {background-image:url('snowboard_fall.jpg')}
