@@ -11,5 +11,5 @@ Rails.application.routes.draw do
   get '/photos', to: "photos#index"
   get '/photos/:id', to: "photos#show", as: "photo"
 
-
+  get '/resume', to: "welcome#show_resume", as: "resume"
 end
