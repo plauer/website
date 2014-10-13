@@ -5,6 +5,6 @@ class WelcomeController < ApplicationController
   end
 
   def show_resume
-    render :resume, layout: "test"
+    render :resume #, layout: "test"
   end
 end
