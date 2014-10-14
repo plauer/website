@@ -50,9 +50,11 @@ ActiveRecord::Schema.define(version: 20141014202315) do
   add_index "admin_users", ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true, using: :btree
 
   create_table "comments", force: true do |t|
-    t.text    "body",    null: false
-    t.integer "user_id"
-    t.integer "post_id"
+    t.text     "body",       null: false
+    t.integer  "user_id"
+    t.integer  "post_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "photos", force: true do |t|
