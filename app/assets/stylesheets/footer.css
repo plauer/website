@@ -1,0 +1,28 @@
+
+.footer{
+  clear:both;
+  height:90px;
+  padding:0px 100px 0px 100px;
+
+}
+
+footer blockquote {
+  border-left:none;
+  width:50%;
+  float:right;
+  font-size:1.2em;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+
+footer .glyphicon-envelope{
+  text-decoration:none;
+  position:relative;
+  top:30px;
+  float:left;
+}
+
+footer a {
+  color:black;
+}

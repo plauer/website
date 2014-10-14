@@ -1,0 +1,68 @@
+header {
+  background-color:#3399FF;
+}
+
+
+header img{
+  width: 20px;
+  height: 20px;
+  margin-left:3px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+}
+
+header .dropdown {
+  color:black;
+  cursor:pointer;
+  float:left;
+  margin-left:40px;
+  position:relative;
+  top:10px;
+}
+
+header .glyphs {
+  text-align:right;
+  float:right;
+  margin-right:10px;
+  position:relative;
+  top:10px;
+}
+
+header .name {
+  height:auto;
+  width:200px;
+  margin:0 auto;
+  text-align:center;
+  clear:both;
+  color:white;
+  text-decoration: none;
+  font-family: 'daniel', cursive;
+}
+
+.nav-menu {
+  display:none;
+  width:;
+  width:100%;
+  max-width:100%;
+  background-color:white;
+  text-align:center;
+  height:50px;
+ font-family: 'Poiret One', cursive;
+}
+
+.nav-menu ul {
+  position:relative;
+  top:25%;
+  list-style:none;
+  display:inline;
+}
+
+.nav-menu ul li {
+  padding-left:20px;
+  display:inline;
+}
+
+.nav-menu ul li a {
+  text-decoration:none;
+}
