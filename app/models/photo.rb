@@ -1,4 +1,4 @@
-class Post < ActiveRecord::Base
+class Photo < ActiveRecord::Base
 
 
 end
