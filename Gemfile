@@ -50,10 +50,12 @@ group :development, :test do
 
 end
 
-group :test do 
+group :test do
   # Use capybara for feature tests
   gem "capybara"
   gem "shoulda-matchers"
   gem 'selenium-webdriver'
   gem 'database_cleaner'
 end
+
+gem 'unicorn'
