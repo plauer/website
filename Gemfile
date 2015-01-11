@@ -59,7 +59,7 @@ end
 
 gem 'unicorn'
 
-gem 'rack-timeout'
+# gem 'rack-timeout'
 
 group :production do
   gem 'rails_12factor'
